@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f0f4f8;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #1e3a8a;
+}
+
+p {
+  margin: 5px 0;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 180px;
+  border: 2px solid #1e3a8a;
+  border-radius: 4px;
+  margin-right: 10px;
+  outline: none;
+}
+
+input[type="number"]:disabled {
+  background: #ddd;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #1e3a8a;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #8b99b8;
+  cursor: not-allowed;
+}
+
+.reset-button {
+  margin-top: 15px;
+  background-color: #10b981;
+}
+
+.reset-button:hover {
+  background-color: #059669;
+}
+
+button:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.attempts {
+  margin-top: 10px;
+  color: #555;
+}
